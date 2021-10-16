@@ -1,3 +1,5 @@
+html{height:100%;width:100%}body{font-family:monospace}.index{align-items:center;color:#f8f8f8;display:flex;font-size:24px;height:100%;justify-content:center;margin:0}.index canvas{position:absolute;z-index:-1}.index header{text-align:center}.index h1{display:none}.index nav{animation:blinker 1s infinite;mix-blend-mode:difference}.index nav a{border-bottom:3px solid #f8f8f8;color:#f8f8f8;text-decoration:none}.index nav a:not(:last-child){margin-right:1em}@keyframes blinker{0%{opacity:1}}.about img{max-height:512px}
+/*
 @charset "UTF-8";
 * {
   margin: 0;
@@ -70,7 +72,6 @@ a:hover {
 .about {
   display: inline-block;
   line-height: 1.3;
-  /*width: 80%;*/
   text-align: justify;
   margin: 20px 20px 20px 50px;
   color: azure;
@@ -78,7 +79,6 @@ a:hover {
   padding: 4px;
   border-radius: 2px;
 }
-/*
 .bg-video {
   position: fixed;
   top: 0;
