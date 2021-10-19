@@ -2,14 +2,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 html {
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 body {
-  font-family: monospace
+  font-family: monospace;
 }
 .index {
   align-items: center;
@@ -18,45 +18,47 @@ body {
   font-size: 24px;
   height: 100%;
   justify-content: center;
-  margin: 0
+  margin: 0;
 }
 .index canvas {
   position: absolute;
-  z-index: -1
+  z-index: -1;
 }
 .index header {
-  text-align: center
+  text-align: center;
 }
 .index h1 {
-  display: none
+  display: none;
 }
 .index nav {
   animation: blinker 1s infinite;
-  mix-blend-mode: difference
+  mix-blend-mode: difference;
 }
 .index nav a {
   border-bottom: 3px solid #f8f8f8;
   color: #f8f8f8;
-  text-decoration: none
+  text-decoration: none;
 }
 .index nav a:not(:last-child) {
-  margin-right: 1em
+  margin-right: 1em;
 }
 @keyframes blinker {
-  0% {opacity: 1}
+  0% {
+    opacity: 1;
+  }
 }
 .about img {
-  max-height: 512px
+  max-height: 512px;
 }
 @keyframes fadeIn {
   from {
-    opacity: 0
+    opacity: 0;
   }
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 .fade-in {
   animation: 1s fadeIn;
-  opacity: 1
+  opacity: 1;
 }
